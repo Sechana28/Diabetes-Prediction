@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaEnvelope, FaPhone, FaGithub, FaQuora } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../assets/tab-icon.png'; // Import your logo image
 
@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-start items-start px-4 md:px-15 lg:px-100 space-y-8 md:space-y-0">
-        <div className="w-full md:w-2/4 flex flex-col md:flex-row items-start md:items-center mb-8 md:mb-0">
+        <div className="w-full md:w-2/4 space-x-4 flex flex-col md:flex-row items-start md:items-center mb-8 md:mb-0">
           <Link to="/" className="cursor-pointer">
-            <img src={logo} alt="Diabetes Prediction Logo" className="w-16 h-16 md:w-20 md:h-20 mr-4" />
+            <img src={logo} alt="Diabetes Prediction Logo" className="w-16 h-16 md:w-48 md:h-24 mr-4" />
           </Link>
           <div>
             <Link to="/" className="text-2xl font-semibold mb-2 hover:text-gray-400 transition-colors duration-300">
               Diabetes Prediction
             </Link>
-            <p className="text-gray-400 text-lg mb-4">Know your risk, take control of your health.</p>
+            <p className="text-gray-400 text-lg mb-4">This website provides a platform for users to predict their likelihood of developing diabetes based on various factors..</p>
           </div>
         </div>
 
@@ -55,6 +55,12 @@ const Footer = () => {
             </a>
             <a href="https://www.linkedin.com/in/bama-charan-chhandogi-b63420240/" className="text-white hover:text-gray-400 transition-colors duration-300">
               <FaLinkedinIn className="text-2xl" />
+            </a>
+            <a href="https://github.com/BamaCharanChhandogi" className="text-white hover:text-gray-400 transition-colors duration-300">
+              <FaGithub className="text-2xl" />
+            </a>
+            <a href="https://quora.com/profile/Bama-Charan-Chhandogi" className="text-white hover:text-gray-400 transition-colors duration-300">
+              <FaQuora className="text-2xl" />
             </a>
           </div>
         </div>

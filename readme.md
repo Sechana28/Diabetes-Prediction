@@ -10,30 +10,32 @@ Welcome to our Diabetes Prediction Website! Our platform offers a unique opportu
 
 <br>
 
-<div style="background-color: #f2f2f2; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border: 5px solid black; display: inline-block;">
-  <img src="https://github.com/BamaCharanChhandogi/Diabetes-Prediction/assets/69814563/7e9783f6-779c-458b-b423-15bee3fa88f0" alt="Diabetes Prediction Website" style="border-radius: 10px; display: block;">
+<div>
+  <img src="https://github.com/user-attachments/assets/b2e5bbb6-8f9b-4dba-9a23-9ca77a3553ba" alt="Diabetes Prediction Website">
 </div>
 
 <br>
 
-## Table of Contents 📜
+  ## 🏆 Featured in:
 
-1. [About Our Project](#about-our-project)
-2. [Key Features](#key-features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Contributing](#contributing)
-6. [Acknowledgements](#acknowledgements)
-
-<br>
+<table>
+    <tr>
+      <th>Event Logo</th>
+      <th>Event Name</th>
+      <th>Event Description</th>
+    </tr>
+    <tr>
+        <td><img src="client/src/assets/Gssoc Label.png" width="200" height="auto" loading="lazy" alt="GSSoC 24"/></td>
+        <td>GirlScript Summer of Code 2024</td>
+        <td>GirlScript Summer of Code is a three-month-long Open Source Program conducted every summer by GirlScript Foundation. It is an initiative to bring more beginners to Open-Source Software Development. 
+    </tr>
+</table>
 
 ## About Our Project 🌟
 
 <p align="justify">
   Our Diabetes Prediction Website offers a user-friendly platform for individuals to assess their risk of developing diabetes. By inputting demographic and health data, users receive personalized predictions generated through advanced machine learning algorithms. Our visualization tools provide clear insights into the relationships between various risk factors and diabetes development likelihood. Transparency is key, as our about page offers details on our mission, team, and commitment to data security. Our goal is to empower individuals with actionable insights to make informed decisions for better health outcomes.
 </p>
-
-<br>
 
 ## ✨ Key Features
 
@@ -42,8 +44,6 @@ Welcome to our Diabetes Prediction Website! Our platform offers a unique opportu
 - **📊 Visualization Page**: Here, you get to see colorful charts and graphs that show how different things, like your weight or blood sugar levels, might affect your chances of getting diabetes. It's like watching a fun picture book about your health!
   
 - **ℹ️ About Page**: Our About Page offers a detailed overview of the Diabetes Prediction Website, elucidating its purpose, features, and the dedicated team driving its development. It serves as a hub of information, empowering users with insights into their health risks while highlighting our mission to democratize predictive analytics for proactive wellness.
-  
-<br>
 
 ## 🛠 Technologies Used
 
@@ -113,87 +113,70 @@ npm run dev
 cd ../server
 python app.py
 ```
+<hr> 
 
-<br>
+<div>
+  <h2><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp" width="35" height="35"> Ready to Contribute?</h2>
+</div>
 
-## 🤝 Contributing
+Kindly go through [CONTRIBUTION.md](https://github.com/BamaCharanChhandogi/Diabetes-Prediction/blob/main/CONTRIBUTION.md) to understand everything from setup to contributing guidelines.
 
-We welcome contributions! To contribute to this project, follow these detailed steps:
+If you would like to contribute to the project, please follow our contribution guidelines.
 
-1. 🍴 **Fork the Repository**:
-   - Navigate to the main repository.
-   - Click on the "Fork" button in the upper right corner of the repository page. This will create a copy of the repository in your GitHub account.
+<!-- Code of conduct -->
+<div>
+<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35"> Code of Conduct</h2>
+</div>
 
-2. 📥 **Clone the Forked Repository**:
-   - Clone your forked repository to your local machine using the following command:
-     ```bash
-     git clone https://github.com/<your-username>/<repository-name>.git
-     ```
-   - Replace `<your-username>` with your GitHub username and `<repository-name>` with the name of the repository you just forked.
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
-3. 🌿 **Create a New Branch**:
-   - Navigate into the cloned repository:
-     ```bash
-     cd <repository-name>
-     ```
-   - Create a new branch for your feature or bug fix:
-     ```bash
-     git checkout -b <branch-name>
-     ```
-   - Replace `<branch-name>` with a descriptive name for your branch, such as `feature/add-new-feature` or `bugfix/fix-issue`.
+<!-- License -->
+<div>
+<h2><img src = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" width="35" height="35"> License</h2>
+</div>
 
-4. ✨ **Make Your Changes**:
-   - Implement your changes in the new branch you created.
-   - Ensure that your code follows the project's coding standards and guidelines.
-   - Test your changes thoroughly to ensure they work as expected.
+This project is licensed under the [MIT License](./LICENSE).
 
-5. 📝 **Commit Your Changes**:
-   - Stage your changes for commit:
-     ```bash
-     git add .
-     ```
-   - Commit your changes with a descriptive commit message:
-     ```bash
-     git commit -m "Add detailed description of what your commit does"
-     ```
-   - Provide a clear and concise commit message that explains what changes you have made and why.
+## GitHub Repository Stats 
 
-6. 🔄 **Push the Changes to Your Fork**:
-   - Push your changes to the branch in your forked repository:
-     ```bash
-     git push origin <branch-name>
-     ```
+<div>
 
-7. 🔧 **Create a Pull Request**:
-   - Go to your forked repository on GitHub.
-   - Click on the "Compare & pull request" button for the branch you just pushed.
-   - Provide a descriptive title and detailed description for your pull request.
-   - Explain what changes you have made, why you made them, and any other relevant information.
-   - Submit the pull request to the main repository.
-
-8. 🛠 **Review Process**:
-   - Your pull request will be reviewed by the maintainers of the project.
-   - Be responsive to any feedback or questions they may have.
-   - Make any necessary changes as requested by the maintainers.
-
-9. 🎉 **Merge**:
-   - Once your pull request is approved, it will be merged into the main repository.
-   - Congratulations! You have successfully contributed to the project.
-
-
-<br>
+<table>
+    <thead>
+        <tr border: 1px;>
+            <td ><b>🌟 Stars</b></td>
+            <td ><b>🍴 Forks</b></td>
+            <td ><b>🐛 Issues</b></td>
+            <td ><b>🔔 Open PRs</b></td>
+            <td ><b>🔕 Closed PRs</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/BamaCharanChhandogi/Diabetes-Prediction?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/BamaCharanChhandogi/Diabetes-Prediction?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/BamaCharanChhandogi/Diabetes-Prediction?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/BamaCharanChhandogi/Diabetes-Prediction?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/BamaCharanChhandogi/Diabetes-Prediction?style=flat&color=critical&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
 ## 💬 Acknowledgements
 
 We would like to thank the contributors and the community for their support and feedback !!
 
-<br>
+<div>
+  <h2><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f496/512.webp" width="40" height="40">Our Contributors</h2>
+</div>
 
-## ❇️ Our Contributors
-
-<center>
 <a href="https://github.com/BamaCharanChhandogi/Diabetes-Prediction/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=BamaCharanChhandogi/Diabetes-Prediction&v=1" />
 </a>
-</center>
 
+<div>
+  <h2><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" width="35" height="35"> Show Your Support</h2>
+</div>
+
+If you find this project interesting and inspiring, please consider showing your support by starring it on GitHub! 
